@@ -1,0 +1,83 @@
+/*for the navbar */
+#Nav{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    
+}
+li a{
+    
+    display:block;
+    color:black;
+    padding:8px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+background-color: grey;
+color: white;
+}
+
+/*General "beautifications"*/
+html{
+    font-size: 15px;
+   
+    font-family: "Raleway", serif;
+}
+body {
+   
+    margin-left: 100px;
+     margin-right: 100px;
+}
+h1{
+    color:purple;
+}
+#about{
+    color:black;
+   
+}
+
+ul{
+    font-style: italic;
+    
+}
+img{
+    float: left;
+    border-radius: 2em;
+    margin-right: 3em;
+
+}
+div > p{
+    font-style: italic;
+    color:crimson;
+}
+
+
+.anything1{
+    color:purple;
+}
+.anything2{
+    color:blue;
+}
+.anything3{
+    color:purple;
+}
+.anything4{
+    color: blue;
+}
+.anything5{
+    color: purple;
+}
+
+#Summary{
+    color:purple;
+}
+#return{
+    background-color: black;
+    color:white;
+    padding: 5px 25px;
+    text-decoration: none;
+    float:right;
+}
